@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+header {
+    background-color: black;
+    padding: 10px;
+    nav{
+        float: right;
+        ul{
+            list-style: none;
+            li{
+                display: inline-block;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet0 MS', sans-serif;
+                text-transform: uppercase;
+                margin: 15px;
+                a{
+                    color: green;
+                    text-decoration: none;
+                    transition: 0.5s all;
+                }
+                a:houver{
+                    color: blue;
+                }
+            }
+        }
+    }
+}
