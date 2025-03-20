@@ -4,24 +4,55 @@
 header {
     background-color: black;
     padding: 10px;
+    padding-right: 400px;
+    
+    img {
+        height: 100px;
+        width: 200px;
+        padding-left: 400px;
+    }
     nav{
         float: right;
         ul{
             list-style: none;
             li{
                 display: inline-block;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet0 MS', sans-serif;
+                font-family: Arial, Helvetica, sans-serif;
                 text-transform: uppercase;
-                margin: 15px;
+                margin: 10px;
+                margin-top: 44px;
                 a{
-                    color: green;
+                    color: rgb(53, 5, 5);
                     text-decoration: none;
                     transition: 0.5s all;
+                    font-weight: bold;
+                    padding: 10px;
+                    
                 }
-                a:houver{
-                    color: blue;
+                a:hover{
+                    color: red;
+                }
+                .btn{
+                    border-radius: 4px;
+                    border: 4px;
+                    color: brown;
+                    transition: 0.5s all;
+                    background-color: antiquewhite;
+                    padding: 10px;
+                }
+                .btn:hover{
+                    color: black;
+                    background-color: rgb(150, 104, 44);
                 }
             }
         }
     }
+}
+.BackGround img{
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    z-index: -1; 
 }
